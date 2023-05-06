@@ -1,0 +1,23 @@
+.enfant1 {
+    background-color: blue;
+    height: 7em;
+    width: 30em;
+}
+.enfant2 {
+    background-color: red;
+    height: 7em;
+    width: 30em;
+}
+
+.parent{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+/**
+display: flex  // obligatoire 
+flex-direction: row/column  // 
+justify-content: flex-start/flex-end/center  //gauche centre droite 
+align-items:  flex-start/flex-end/center  //gauche centre droite
+**/
